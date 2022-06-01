@@ -49,4 +49,7 @@
     color: #828282;
     overflow: auto;
   }
+    .main-content {
+    margin-top: 40px;
+  }
 }
