@@ -79,6 +79,11 @@ body {
   border-radius: 25px;
   font-size: 18px;
 }
+.main-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main-img img {
   width: 400px;
   height: auto;
