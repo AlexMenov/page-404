@@ -82,6 +82,31 @@ body {
 .main-img img {
   width: 400px;
   height: auto;
+  animation: updown 2s infinite alternate;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+}
+.main-shadow {
+  width: 300px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.227);
+  border-radius: 50%;
+  filter: blur(7px);
+  animation: shadow 2s infinite alternate;
+}
+@keyframes shadow {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(.9, .9);
+  }
 }
 .footer {
   display: flex;
