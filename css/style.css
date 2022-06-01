@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 180, 0, 0.7);
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 1 auto;
+}
+.list-item {
+  margin-left: 40px;
+}
+.nav-button {
+  display: none;
+  background-color: rgba(255, 180, 0, 0.4);
+}
+.open {
+  display: block;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 auto;
+  font-size: 30px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  text-align: center;
+}
+.content-title {
+}
+.content-text {
+}
+.content-button {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  font-size: 18px;
+}
+.main-img img {
+  width: 400px;
+  height: auto;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.footer .container {
+  column-gap: 10px;
+}
+.footer-contacts {
+}
+.footer-in {
+  width: 3px;
+  height: 45px;
+  background-color: black;
+  border-radius: 45px;
+}
+.footer-email {
+}
